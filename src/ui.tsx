@@ -13,7 +13,7 @@ export function setupUi() {
 }
 
 const uiComponent = () => (
-  <UiEntity>
+  <UiEntity uiTransform={{ width: '100%' }}>
    
   <OBStoreUI />
 </UiEntity>
